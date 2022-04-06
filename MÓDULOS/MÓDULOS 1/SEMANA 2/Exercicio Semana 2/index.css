@@ -1,0 +1,390 @@
+html {
+  /* background: #1A374D; */
+}
+html body {
+  margin: 0px;
+  padding: 0px;
+  background: black;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Rock Salt', cursive; */
+  font-family: "Permanent Marker", cursive;
+}
+html body .container-footer {
+  width: 90%;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("guitar.png");
+  background-size: cover;
+  align-items: center;
+}
+html body .menu-footer ul li {
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+html body .menu-footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+html body .menu-footer ul li a:hover {
+  transition: 2s;
+  cursor: point;
+  color: #c78c19;
+}
+html body .autor {
+  display: flex;
+  justify-content: start;
+  margin: 0px;
+  width: 90%;
+  height: 100px;
+  background: #1a1b1b;
+  margin: 0 auto;
+  align-items: center;
+}
+html body .redes-autor {
+  width: 50%;
+  text-align: end;
+}
+html body .autor ul {
+  margin: 0px;
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+html body .autor ul li {
+  display: inline;
+  padding: 10px 10px;
+}
+html body .redes-sociais {
+  width: 30%;
+}
+html body .redes-sociais ul {
+  text-align: center;
+  margin: 0px;
+}
+html body .descricao-autor p {
+  color: white;
+}
+html body .titulo-formulario {
+  width: 90%;
+  height: 150px;
+  margin: auto;
+  background: #c78c19;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  /*  justify-content: center; */
+}
+html body h2 {
+  padding: 50px;
+}
+html body .campo-formulario {
+  width: 90%;
+  height: 600px;
+  margin: auto;
+  background: #c78c19;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+html body .campo-formulario form {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+html body .campo-formulario .formulario {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+html body .imagem-formulario {
+  width: 50%;
+  height: 502px;
+  object-fit: cover;
+}
+html body .img-formulario {
+  border-radius: 10px;
+  height: 500px;
+  border: 4px solid;
+  box-shadow: 5px 5px 5px black;
+  object-fit: cover;
+}
+html body .img-imagem {
+  width: 100%;
+  display: inline;
+  text-align: center;
+  border-radius: 5px;
+}
+html body .input-padrao {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 25px;
+  width: 60%;
+  border-radius: 5px;
+  background: black;
+}
+html body .enviar {
+  display: block;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  color: black;
+  background: #1a9cbd;
+  text-transform: uppercase;
+  border: 2px solid;
+  border-radius: 5px;
+  border: 2px solid;
+  box-shadow: 2px 2px 2px black;
+  margin: 20px auto;
+  cursor: pointer;
+}
+html body .enviar:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+html body .evento-principal {
+  width: 90%;
+  height: 950px;
+  margin: auto;
+  background: #c78c19;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html body .evento-principal .titulo-evento {
+  margin: 0px;
+  vertical-align: middle;
+  padding-top: 25px;
+  width: 90%;
+  text-align: center;
+  height: 600px;
+}
+html body .evento-principal .titulo-evento-principal {
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0px;
+  padding-top: 0px;
+}
+html body .evento-principal .img-evento {
+  width: 100%;
+  display: inline;
+  text-align: center;
+  border-radius: 5px;
+}
+html body .evento-principal .imagem-evento-principal {
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px black;
+}
+html body .evento-principal .descricao-princpal {
+  display: flex;
+  text-align: center;
+  width: 90%;
+}
+html body .evento-principal .descricao-principal {
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  flex-direction: column;
+  text-align: center;
+}
+html body .evento-principal .descricao-principal p {
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+html body .evento-principal .bt-ingressos {
+  width: 200px;
+  height: 80px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background: #1a9cbd;
+  text-transform: uppercase;
+  border: 2px solid;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+  margin: 20px auto;
+}
+html body .evento-principal .bt-ingressos:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+html body .proximo-evento {
+  color: antiquewhite;
+  background: #1a9cbd;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  height: 80px;
+}
+html body .proximo-evento p {
+  color: black;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 50px;
+  text-align: start;
+  font-weight: bold;
+}
+html body .grid {
+  width: 90%;
+  height: 700px;
+  background: #1a9cbd;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  flex-wrap: wrap;
+}
+html body .show {
+  background: #c78c19;
+  width: 28%;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 4px solid;
+  box-shadow: 5px 5px 5px black;
+}
+html body .show .nome-banda {
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+  text-transform: uppercase;
+}
+html body .show .imagem-show {
+  width: 314px;
+  height: 177px;
+}
+html body .show .poster {
+  width: 314px;
+  height: 177px;
+  object-fit: cover;
+}
+html body .show .descricao-show {
+  text-align: center;
+  height: 50px;
+}
+html body .show .saiba-mais {
+  width: 40%;
+  height: 80%;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+  background: #1a9cbd;
+  text-transform: uppercase;
+  border: 2px solid;
+  border-radius: 5px;
+  border: 2px solid;
+  box-shadow: 2px 2px 2px black;
+  margin: 5px auto;
+}
+html body .show .saiba-mais:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+html body .container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  background: #1a9cbd;
+  justify-content: space-around;
+}
+html body .container .menu-nav ul li {
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+html body .container .menu-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+html body .container .menu-nav ul li a:hover {
+  color: black;
+  transition: 1s;
+  cursor: pointer;
+  font-size: 24px;
+}
+html body .container .menu-login ul li {
+  list-style: none;
+  text-transform: uppercase;
+  padding: 10px;
+}
+html body .container .menu-login ul li button {
+  background: black;
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  transition: 1s;
+}
+html body .container .menu-login ul li button:hover {
+  cursor: pointer;
+}
+html body .container button a {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border: none;
+  font-family: "Permanent Marker", cursive;
+}
+html body .container button a:hover {
+  color: #c78c19;
+  transition: 1s;
+  cursor: pointer;
+}
+html body .container-busca {
+  width: 90%;
+  height: 120px;
+  margin: auto;
+  background: #1a9cbd;
+  align-items: center;
+}
+html body .container-busca h1 {
+  margin: 0px auto;
+  text-align: center;
+  padding: 10px;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: black;
+}
+html body .container-busca form {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+html body .container-busca form label {
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+}
+html body .container-busca form .buscador {
+  height: 30px;
+}
+
+/*# sourceMappingURL=index.css.map */

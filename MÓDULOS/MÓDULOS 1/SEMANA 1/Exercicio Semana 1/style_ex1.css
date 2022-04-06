@@ -1,0 +1,84 @@
+.body-index_ex1, html{
+    background: rgb(190, 190, 55);
+    margin: 0px;
+    padding: 0px;
+}
+.caixa{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(113, 113, 124);
+}
+.imagem{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.nav{
+    width: 50%;
+    position: absolute;             /* position: absolute= eu defino o posicionamento atraves dos valores no top, right etc... */
+    top: 80px;
+    right: -130px;
+    margin: 0 auto;
+    padding-top: 20px;
+    
+}
+.nav a{
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;             /* NEGRITO */
+    font-size: 26px;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.nav a:hover{                        
+    color: #050505;               
+    transition: 300ms; all;
+    cursor: pointer;             
+}
+.row{
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+.video{
+    text-align: center;
+    padding: 20px;
+}
+.titulo{
+    size: 325px;
+    font-family: Verdana;
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+    background-image: url("kelly-sikkema-SKcCIDMIvew-unsplash.jpg");
+    background-size: 325px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 100px;
+    margin-top: 300px;
+}
+.paragrafo{
+    font-size: 14px;
+}
+.paragrafo, .botao-avancar{
+    text-align: center;
+}
+.botao-avancar{
+    width: 200px;
+    border: solid 2px black;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+footer{
+    width: 100px 100px;
+    margin-top: 20px;
+    text-align: center;
+    background: black;
+    padding: 20px 0;
+    color: #FFFFFF;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/6d6b36d87e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div>
+                <img src="rock-removebg-preview.png" width="250">
+            </div>
+
+            <div class="menu-nav">
+                <ul>
+                   <li><a href="#">Shows</a></li>
+                   <li><a href="#">Ingressos</a></li>
+                   <li><a href="#">Contatos</a></li>
+                </ul>
+            </div>
+
+            <div class="menu-login">
+                <ul>
+                    <li><button><a href="#">Entre</a></button></li>
+                    <li><button><a href="#">Cadastre-se</a></button></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="container-busca">
+    
+            <form>
+                <label for="nomesobrenome">Encontre seu próximo show !</label>     <!-- Label= Etiqueta para input|| for= sobrenome para o input id="nomesobrenome" -->
+                <input type="text" class="buscador" placeholder="Busque aqui" required>     <!-- input type: tipo de entrada, "text, etc " -->     
+            </form> 
+        </div>      
+    </header>
+    
+    <main>
+
+        <div class="evento-principal">
+            <div class="titulo-evento">
+                <h1 class="titulo-evento-principal">METALLICA TOUR 2023 - BRAZIL</h1>
+            </div>
+            <div class="img-evento">
+                <img src="metal.jpg" class="imagem-evento-principal" width="90%">
+            </div>
+            <div class="descricao-principal">
+                <button class="bt-ingressos">Ingressos</button>
+                <p>30/FEV - Ingressos Limitados<p>
+            </div>
+        </div>
+    
+        <div class="proximo-evento">
+            <p>Próximos shows</p>
+        </div>
+
+        <div class="grid">
+            
+            <div class="show">
+                <h1 class="nome-banda">rhcp</h1>
+                <div class="imagem-show">
+                    <img src="Red-Hot-Chili-Peppers.jpg" class="poster" >
+                </div>
+                <div class="descricao-show">
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="show">
+                <h1 class="nome-banda">foo fighters</h1>
+                <div class="imagem-show">
+                    <img src="foo_meta-1536x864.jpg" width="100%" >
+                </div>
+                <div class="descricao-show">
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="show">
+                <h1 class="nome-banda">the strokes</h1>
+                <div class="imagem-show">
+                    <img src="news31896-big.jpg" width="100%" >
+                </div>
+                <div class="descricao-show">
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="show">
+                <h1 class="nome-banda">Green Day</h1>
+                <div class="imagem-show">
+                    <img src="greenday.jfif" width="100%" >
+                </div>
+                <div class="descricao-show">
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>                
+            </div>
+            <div class="show">
+                <h1 class="nome-banda">cpm 22</h1>
+                <div class="imagem-show">
+                    <img src="cpm22.webp" width="100%" >
+                </div>
+                <div class="descricao-show">
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+                
+
+            </div> 
+            <div class="show">
+                <h1 class="nome-banda">skank</h1>
+                <div class="imagem-show">
+                    <img src="skank.jpg" width="100%" >
+                </div>
+                
+                <div class="descricao-show">
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="titulo-formulario">
+            <span>
+                <h2>Não fique de fora...<br> se inscreva e receba novidades!</h2>
+            </span>
+        </div>
+        <div class="campo-formulario">
+            <div class="formulario">
+                <form>      <!-- Tag padrão de formulario HTML5 -->
+                    
+                    <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome e Sobrenome">     <!-- input type: tipo de entrada, "text, etc " -->
+                                                        <!-- required= preenchimento do campo obrigatório -->
+                    
+                    <input type="email" id="email" class="input-padrao" required placeholder="Email">      <!-- INPUT TYPE= TEXT -->
+                    <!-- Ao inves de usar for e id, pode-se criar a input dentro da label <label><input type="....." <\label> (outra forma de escrever) -->
+                    
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="Telefone">    <!-- INPUT TYPE= TEXT -->
+         
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required placeholder="Deixe sua mensagem..."></textarea>   <!-- INPUT TYPE textarea= campo de mensagem com varias colunas e linhas -->
+        
+                    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+        
+                    <input type="submit" value="Enviar" class="enviar">   <!-- BOTAO ENVIAR FORMULARIO Instrução para enviar os dados| value= nome do botão Enviar -->           
+                </form>
+            
+                <div class="imagem-formulario">
+                    <img src="ron-smith-tknOyEefp2k-unsplash.jpg" class="img-formulario" width="80%">
+                </div>
+            </div>    
+        </div>                
+    </main>
+    <footer>
+        <div class="container-footer">
+            <div class="menu-footer">
+                <ul>
+                   <li><a href="#">Sobre</a></li>
+                   <li><a href="#">Galeria<br> de Fotos</a></li>
+                   <li><a href="#">Trabalhe<br> Conosco</a></li>
+                </ul>
+            </div>
+
+            <div class="redes-sociais">
+                <ul>
+                    <li></li><a href="URL DO FACEBOOK"><img src="facewhite-removebg-preview.png" width="25%"></a></li>
+                    <a href="URL DO INSTAGRAM"><img src="insta.PNG" width="25%"></a>
+                    <a href="URL DO YOUTUBE"><img src="youtube.PNG" width="25%"></a>
+                    
+                </ul>
+            </div>
+        
+
+        <div>
+            <img src="rock_white.png" width="250">
+        </div>
+
+
+         </div>
+        <div class="autor">
+            <div class="redes-autor">
+                <ul>
+        
+                  <li><a href="https://www.linkedin.com/in/oseiaslissak/"><img src="linkdin.jpg" width="8%" ></a></li>  
+                  <li><a href="URL DO YOUTUBE"><img src="git.png" width="8%"></a></li>
+                
+                </ul>
+            </div>
+            
+            <div  class= descricao-autor>
+                <p>Criado por: Oseias Lissak<br>
+                Semana 2 Módulo 1
+                DEVInHouse 2022
+                </p>
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+</html>
