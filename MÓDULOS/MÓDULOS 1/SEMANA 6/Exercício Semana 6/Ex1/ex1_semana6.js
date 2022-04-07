@@ -5,8 +5,5 @@ nela deve ser buscado o elemento h1 e alterado o texto para "Título da página 
  */
 
 function alteraTitulo(){
-    document.getElementById('title');
-
-    
-
+    let title = document.getElementById('title').textContent="Título da página alterado";
 }
