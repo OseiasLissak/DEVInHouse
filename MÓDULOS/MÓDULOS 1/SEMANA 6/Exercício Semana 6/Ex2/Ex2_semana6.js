@@ -17,10 +17,10 @@ function calcular(){
     switch(operacao){
         case '+':
         function soma(){
-            const resultado = createElement('p');
-                resultado.textContent (numero1 + numero2);
-                resultado.style.color = 'black'
-                document.body.appendChild('p')
+            let resultado = createElement('p');
+            resultado.textContent (numero1 + numero2);
+           
+            document.body.appendChild('p')
                 
         }
         break;
